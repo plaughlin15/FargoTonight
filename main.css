@@ -1,0 +1,237 @@
+article, aside, figure, footer, header, nav, section, hgroup {
+	display: block;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	background-image: url(images/background.jpg);
+}
+body {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-image: url(images/background1.jpg);
+	background-repeat: repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #CCC;
+	border: 3px solid #C00;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#welcome {
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-bottom-color: #FC0;
+	border-top-color: #FC0;
+	margin-top: 2em;
+	
+}
+#introduction {
+	margin-left: 20px;
+	margin-right: 2em;
+}
+
+#rachel, #ryan, #rob {
+	float: right;
+	padding-top: .35em;
+}
+
+#col1, #col2, #col3 {
+	margin-right: 20px;
+	margin-left: 20px;
+	float: left;
+}
+#col4, #col5, #col6, #col7 {
+	margin-right: 70px;
+	margin-left: 70px;
+	float: right;
+}
+a:link {
+	color: #F00;
+}
+a:visited {
+	color: #900;
+}
+a:hover {
+	background-color: #FF0;
+}
+a:active {
+	color: #FC0;
+}
+
+section li {
+	padding-bottom: .35em;
+}
+
+section ul {
+	padding-bottom: 0.5em;
+	padding-left: 3em;
+}
+section h1 {
+	padding-top: 0.25em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	color: #FC0;
+}
+#toppage1 {
+	margin-top: 2em;
+	padding-bottom: 0.5em;
+	color: #FC0;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;	
+}
+#toppage2 {
+	margin-top: 2em;
+	padding-bottom: 0.5em;
+	color: #FC0;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;	
+}
+#toppage3 {
+	margin-top: 2em;
+	padding-bottom: 0.5em;
+	color: #FC0;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#toppage4 {
+	margin-top: 2em;
+	padding-bottom: 0.5em;
+	color: #FC0;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;	
+}
+#about1 {
+	margin-top: .25em;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#about2 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#guide1 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;	
+}
+#tackle1 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#tackle2 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#tackle3 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+#media1 {
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #FC0;
+}
+section h2 {
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-bottom: 0.25em;
+	color: #FC0;
+}
+section img {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+}
+#nav_bar ul {
+	list-style: none;
+	border-top: 2px yellow;
+	border-bottom: 2px yellow;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	margin-top: 1em;
+}
+#nav_bar li {
+	display: inline;
+	padding: 0 1.5em;
+	color: #C00;
+}
+#nav_bar a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: #CCC;
+	font-weight: bold;
+	border-right: 1px solid yellow;
+	border-left: 1px solid yellow;
+	border-bottom: 2px solid yellow;
+}
+#nav_bar a.current { color: #C00; text-decoration: none;
+}
+
+header {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+hgroup {
+	border: 3px solid #FF0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#update {
+	color: #000;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+blockquote {
+	font-style: italic;
+	padding-right: 2em;
+	padding-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-right: 3em;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #C00;
+	border-bottom-color: #C00;
+}
+section p {
+	padding-top: 0.5em;
+	padding-left: 1.5em;
+	padding-bottom: 0.75em;
+}
+#contact {
+	padding-bottom: 1em;
+}
+#video {
+	float: right;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+}
+
+footer {
+	clear: both;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	background-color: #FC0;
+	color: #000;
+}
